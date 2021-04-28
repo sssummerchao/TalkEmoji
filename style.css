@@ -1,0 +1,99 @@
+body {
+  width: 100vh;
+  margin:0; 
+  /* background: linear-gradient(to left top,#79C2F3 , #FFB4EF); */
+  }
+html { 
+  height: 100%;
+} 
+canvas {
+  display: block;
+  color: white;
+}
+
+/* #grad1 {
+  height: 100vh;
+  background-size:100% auto;
+  background-image: linear-gradient(to right, #79C2F3 , #FFB4EF);
+} */
+
+p {
+  font: 20px Encode Sans, Semibold;
+  line-height: 110%;
+  font-weight: 600;
+  color: white;
+  padding-left: 30px;
+
+}
+h3 {
+  font: 20px Encode Sans, Semibold;
+  padding-bottom: 0px;
+  line-height: 130%;
+  
+}
+h1 {
+
+  font: 65px Encode Sans, SemiBold;
+  font-weight: 800;
+  line-height: 20%;
+  color: white;
+}
+.column {
+  float: left;
+  /* padding: 10px; */
+  /* height: 100vh; */
+}
+
+.left {
+  width: 40vw;
+  height: 100vh;
+  background:#101dde;
+  margin-top: 0;
+  /* border: 1px solid black; */
+
+}
+.lefttext {
+position:relative;
+top: 40vh;
+left: 6vw;
+
+  /* border: 1px solid black; */
+
+}
+.right {
+  position: absolute;
+  width: 50vw;
+  left:550px;
+  top:0px;
+  color: #101dde;
+  /* border: 1px solid black; */
+
+}
+
+ @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+} 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.relative {
+  position: relative;
+  /* top: 35vh; */
+  /* left:2vh; */
+
+  /* border: 3px solid #73AD21; */
+}
+
+/* .vl {
+  border-left: 0.1px solid black;
+  height: 100vh;
+  position: fixed;
+  left: 30%;
+  margin-left: -3px;
+  top:0;
+} */
